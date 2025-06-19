@@ -1,0 +1,99 @@
+.book-card {
+  background-color: #2a2a2a;
+  color: #f1f1f1;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-left: 4px solid #2196f3;
+  border-radius: 5px;
+  transition: transform 0.2s;
+}
+
+.book-card:hover {
+  transform: scale(1.02);
+}
+
+.book-card h3 {
+  margin: 0 0 0.5rem;
+}
+
+.book-card p {
+  margin: 0.2rem 0;
+}
+
+.book-card button {
+  margin-top: 0.5rem;
+  background-color: #e53935;
+}
+
+.book-card button:hover {
+  background-color: #c62828;
+}
+.book-card {
+  background-color: #ffffff;
+  color: #333;
+  padding: 1.5rem;
+  margin: 1rem auto;
+  max-width: 700px;
+  border-left: 4px solid #1976d2;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  text-align: left;
+  transition: transform 0.2s ease;
+}
+
+.book-card:hover {
+  transform: translateY(-3px);
+}
+
+.book-card h3 {
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #1976d2;
+}
+
+.book-card p {
+  margin: 0.3rem 0;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.book-card input,
+.book-card textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.book-card textarea {
+  resize: vertical;
+  min-height: 60px;
+}
+
+.book-card button {
+  margin-right: 10px;
+  margin-top: 0.8rem;
+  padding: 8px 14px;
+  background-color: #1976d2;
+  color: white;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.book-card button:hover {
+  background-color: #0d47a1;
+}
+
+.book-card button:last-of-type {
+  background-color: #e53935;
+}
+
+.book-card button:last-of-type:hover {
+  background-color: #c62828;
+}

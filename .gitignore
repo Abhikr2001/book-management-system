@@ -1,0 +1,9 @@
+# Node and Python dependencies
+node_modules/
+__pycache__/
+.env
+*.pyc
+
+# VSCode or system files
+.vscode/
+.DS_Store
