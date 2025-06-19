@@ -34,10 +34,13 @@ npm start
 
 ### 3. Backend Setup (FastAPI)
 
-cd ../backend
+cd backend
+python -m venv venv
+venv\Scripts\activate        # On Windows
+# or
+source venv/bin/activate     # On Mac/Linux
 
 pip install -r requirements.txt
-
 uvicorn main:app --reload
 
 
