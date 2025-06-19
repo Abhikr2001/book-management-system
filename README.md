@@ -26,18 +26,18 @@ cd book-management-system
 
 ### 2. Frontend Setup (React)
 
--cd frontend
+cd frontend
 
--npm install
+npm install
 
--npm start  
+npm start  
 
 ### 3. Backend Setup (FastAPI)
 
--cd ../backend
+cd ../backend
 
--pip install -r requirements.txt
+pip install -r requirements.txt
 
--uvicorn main:app --reload
+uvicorn main:app --reload
 
 
