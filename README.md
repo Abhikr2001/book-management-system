@@ -40,7 +40,7 @@ python -m venv venv
 
 venv\Scripts\activate        # On Windows
 
-# or
+ or
 
 source venv/bin/activate     # On Mac/Linux
 
